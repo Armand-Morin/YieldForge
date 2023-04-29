@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YieldForge/static/css/main.a0676673.css",
+    "main.js": "/YieldForge/static/js/main.8650a18f.js",
+    "static/js/787.19bd0e16.chunk.js": "/YieldForge/static/js/787.19bd0e16.chunk.js",
+    "index.html": "/YieldForge/index.html",
+    "main.a0676673.css.map": "/YieldForge/static/css/main.a0676673.css.map",
+    "main.8650a18f.js.map": "/YieldForge/static/js/main.8650a18f.js.map",
+    "787.19bd0e16.chunk.js.map": "/YieldForge/static/js/787.19bd0e16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0676673.css",
+    "static/js/main.8650a18f.js"
+  ]
+}
