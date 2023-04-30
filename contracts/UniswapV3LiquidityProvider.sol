@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
-import "@uniswap/v3-core/contracts/libraries/TickMath.sol";
-import "@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol";
-import "@uniswap/v3-periphery/contracts/interfaces/IMulticall.sol";
-import "@uniswap/v3-periphery/contracts/libraries/LiquidityAmounts.sol";
-import "@uniswap/v3-periphery/contracts/libraries/PoolAddress.sol";
+import "storage-lab/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "storage-lab/node_modules/@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
+import "storage-lab/node_modules/@uniswap/v3-core/contracts/libraries/TickMath.sol";
+import "storage-lab/node_modules/@uniswap/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol";
+import "storage-lab/node_modules/@uniswap/v3-periphery/contracts/interfaces/IMulticall.sol";
+import "storage-lab/node_modules/@uniswap/v3-periphery/contracts/libraries/LiquidityAmounts.sol";
+import "storage-lab/node_modules/@uniswap/v3-periphery/contracts/libraries/PoolAddress.sol";
 
 contract UniswapV3LiquidityProvider {
     INonfungiblePositionManager private positionManager;
