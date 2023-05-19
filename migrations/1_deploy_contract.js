@@ -1,5 +1,5 @@
-const SimpleStorage = artifacts.require("SimpleStorage.sol");
+const Hypervisor = artifacts.require("Hypervisor.sol");
 
 module.exports = function(deployer) {
- deployer.deploy(SimpleStorage);
+ deployer.deploy(Hypervisor);
 };
